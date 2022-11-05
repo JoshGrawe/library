@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+}
+
+body{
+    background-color:gainsboro;
+}
+
+
+#BookForm{
+  
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    visibility: hidden;
+    position:absolute;
+    top: 25vh;
+ 
+    padding: 2rem;
+    background-color:#D9D9D9 ;
+    border: black solid;
+}
+
+h3{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.bookcontainer{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    border: 5px black solid;
+    border-radius: 25px;
+    width: 200px;
+    height: 250px;
+}
+.book-container{
+    text-align: center;
+   
+   
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 200px;
+    
+}
+
+.read{
+    background-color: #00FF19;
+    margin-top: 1rem;
+}
+
+.not-read{
+    background-color: red;
+    margin-top: 1rem;
+}
+
+button{
+    border-radius: 25px;   
+    
+}
+
+#Add-Book{
+    background-color: whitesmoke;
+    padding: 0.6rem;
+    width: 25vw;
+    margin-bottom: 10vh;
+    font-size: 1.5rem;
+}

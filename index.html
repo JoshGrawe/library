@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Library-container">
+            <h1>Library Project</h1>
+            <button id="Add-Book">+ New Book</button>
+        </div>
+        <div class="book-container">
+            
+        </div>
+        
+        <form method="post" id="BookForm">
+            <label for="name">Book Title</label>
+            <input required type="text" name="name" id="BookTitle">
+            <label for="author">Author</label>
+            <input required type="text" name="Author" id="author">
+            <label for="name">Amount Of Pages</label>
+            <input required type="text" name="Pages" id="pages">
+            <div class="two columns">
+                <label for="status">Status</label>
+                <select name="status" id="status" class="u-full-width">
+                  <option value="true">Read</option>
+                  <option value="false">Not read</option>
+                </select>
+              </div>
+            <button id="submitButton" type="button" >Submit</button>
+        </form>
+    
+       
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
